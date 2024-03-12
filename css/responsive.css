@@ -1,0 +1,267 @@
+@media only screen and (max-width: 1083px) {
+    header .logo {
+        z-index: 100;
+    }
+
+    nav {
+        display: grid;
+    }
+
+    .toggle {
+        display: inline-flex !important;
+    }
+
+    header nav ul li {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul li:hover {
+        transform: translateY(0px);
+        transform: translateX(4px) !important;
+
+    }
+
+    header ul {
+        position: fixed;
+        top: -100%;
+        text-align: justify;
+        background-color: var(--main-bg);
+        border-radius: 0px 0px 10px 10px;
+        height: 50%;
+        width: 100%;
+        padding: 70px 0 !important;
+        transition: all 0.5s ease-in-out;
+        z-index: 55;
+        display: grid;
+        place-items: center;
+    }
+
+    header nav ul li a:hover {
+        color: white !important;
+        transition: all 0.2s ease-in-out;
+    }
+
+    #checkbox:checked~ul {
+        top: 0;
+        right: 0px;
+
+    }
+
+    .bars {
+        float: right;
+        position: relative;
+        z-index: 99;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    /* header */
+    header .support h6,
+    a {
+        font-size: 8px;
+        margin: 0;
+        padding: 0;
+    }
+
+    header .support i {
+        font-size: 12px;
+    }
+
+    /* home page */
+    .home .product-box {
+        height: 88px;
+        width: 246px;
+    }
+
+    .home .product-details {
+        width: 246px;
+    }
+
+    .home .product-img {
+        width: 150px !important;
+    }
+
+    /* services */
+    .services .service .container-service {
+        padding: 30px 0;
+    }
+
+    .services .service .container-service .circle-img {
+        height: 177px;
+        width: 177px;
+    }
+
+    .services .service .item:nth-child(even) .container-service,
+    .services .service .item:nth-child(odd) .container-service {
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    /* home page */
+    .banner .banner-heading h1 {
+        font-size: 42px;
+        line-height: 57px;
+        margin-bottom: 13px;
+    }
+
+    .banner .banner-heading h4 {
+        color: #FFFF;
+        font-size: 13px;
+        margin-bottom: 29px;
+    }
+
+    .banner .carousel-1 .banner-img {
+        height: 550px !important;
+    }
+
+    .banner .carousel-2 .banner-img {
+        width: 550px !important;
+    }
+
+    .banner .carousel-3 .banner-img {
+        width: 361px !important;
+    }
+
+    /* about */
+    .about .box {
+        width: 159px;
+        height: 172px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* home page */
+    .banner .banner-heading h1 {
+        font-size: 39px;
+        line-height: 50px;
+        margin-bottom: 13px;
+    }
+
+    .banner-height {
+        height: 70vh;
+    }
+
+    .banner .banner-heading h4 {
+        color: #FFFF;
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+
+    .banner .carousel-1 .banner-img {
+        height: 443px !important;
+    }
+
+    .banner .carousel-2 .banner-img {
+        width: 410px !important;
+    }
+
+    .banner .carousel-3 .banner-img {
+        width: 265px !important;
+    }
+
+    .banner .banner-heading .shop-now,
+    .banner .banner-heading .info-btn {
+        padding: 8px 26px;
+        font-size: 12px;
+    }
+
+    .services .service .item:nth-child(even) .container-service .content {
+        margin-left: 0px;
+    }
+
+    .about .box {
+        width: 116px;
+        height: 122px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header .row{
+        display: flex;
+        justify-content: space-between;
+    }
+    header .contact-detail{
+        display: none !important;
+    }
+    header .col-3,header .col-6{
+        width: 50% !important;
+    }
+    /* home page */
+    .banner .banner-heading h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 13px;
+    }
+
+    .banner-height {
+        height: 70vh;
+    }
+
+    .banner .banner-heading h4 {
+        color: #FFFF;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .banner .banner-heading .shop-now,
+    .banner .banner-heading .info-btn {
+        padding: 8px 12px;
+        font-size: 11px;
+    }
+
+    .banner .carousel-1 .banner-img {
+        height: 443px !important;
+    }
+
+    .banner .carousel-2 .banner-img {
+        width: 410px !important;
+    }
+
+    .banner .carousel-3 .banner-img {
+        width: 265px !important;
+    }
+    
+    
+    
+}
+@media only screen and (max-width: 517px){
+    .banner .carousel-1 .banner-img {
+        height: 418px !important;
+    }
+
+    .banner .carousel-2 .banner-img {
+        width: 534px !important;
+    }
+    .banner .banner-heading {
+       z-index: 10;
+    }
+
+    .banner .carousel-3 .banner-img {
+        width: 337px !important;
+    }
+
+    .about .box {
+        width: 88px;
+        height: 99px;
+    }
+    .about .box h6 {
+        font-size: 10px;
+    }   
+    .about .box h3 {
+        font-size: 14px; 
+    }
+    .items {
+        height: 395px
+    }
+    .services .service .item:nth-child(even) .container-service,
+    .services .service .item:nth-child(odd) .container-service {
+        width: 100%;
+        border-radius: 0 0 0 0;
+    }
+}
