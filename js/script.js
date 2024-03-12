@@ -45,4 +45,9 @@ $(document).ready(function () {
             }
         ]
     });
+    // navigat from home page to product page
+    $('.item-1').on("click",function(){
+        window.location.replace("../products.html")
+    });
+
 });

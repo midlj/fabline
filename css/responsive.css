@@ -132,6 +132,17 @@
         width: 159px;
         height: 172px;
     }
+    .about .pharaghaph{
+        width: 100%;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    /* about page */
+    .about-page .sec-2 .img {
+        margin-bottom: 20px !important;
+        width: auto;
+        height: 180px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -178,6 +189,16 @@
     .about .box {
         width: 116px;
         height: 122px;
+    }
+    /* about page */
+    .about-page .sec-2 .img {
+        margin-bottom: 18px !important;
+        width: auto;
+        height: 100px;
+    }
+    /* contact-page */
+    .contacts-page .sec-1 form {
+        border:none !important;
     }
 }
 
@@ -226,7 +247,14 @@
     .banner .carousel-3 .banner-img {
         width: 265px !important;
     }
-    
+    /* about page */
+    .about-page .sec-1 h1 {
+        font-size: 22px;
+    }
+    .about-page .sec-4 .box {
+        height: 166px;
+        width: 182px;
+    }
     
     
 }
@@ -263,5 +291,10 @@
     .services .service .item:nth-child(odd) .container-service {
         width: 100%;
         border-radius: 0 0 0 0;
+    }
+    .about .about .pharaghaph{
+        width: 90%;
+        padding: 0 10px;
+        margin: 0 auto;
     }
 }
