@@ -84,7 +84,9 @@ span.blue {
 }
 
 /* header */
-
+header{
+    z-index: 20;
+}
 header .logo {
     width: 104px;
     height: 38px;
@@ -221,12 +223,13 @@ header .support i {
 .banner-height {
     height: 100vh;
 }
-
-.header-primary {
-    background: #000066;
-    position: sticky;
+#header{
+    position: fixed;
+    width: 100%;
     top: 0;
-    z-index: 10;
+}
+.header-primary {
+    background: #000066 !important;
 }
 
 .header-1 {
@@ -817,6 +820,7 @@ textarea::placeholder {
    align-items: center;
    
 }
+
 .mapouter {
     position: relative;
     text-align: right;
@@ -829,6 +833,7 @@ textarea::placeholder {
     height: 92px;
     width: 121px;
 }
+
 .contacts-page .sec-3 h5{
    font-size: 13px;
    font-family: 'inter-bold';
