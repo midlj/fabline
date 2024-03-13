@@ -61,7 +61,7 @@ $('.carousel').bind('slide.bs.carousel', function (e) {
         $('#header').removeClass("header-2");
         $('#header').addClass("header-3");
     }
-    if(e.from==3){
+    if(e.from==2){
         $('#header').removeClass("header-3");
         $('#header').addClass("header-1");
     }
