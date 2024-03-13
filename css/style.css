@@ -567,7 +567,14 @@ footer .social a i {
     display: inline-block;
 
 }
-
+/* header for all other pages */
+.about-page #header,
+.products-page #header,
+.contacts-page #header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
 /* about page */
 .about-page .sec-1 {
     background-color: #F2E8A5;
